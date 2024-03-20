@@ -30,14 +30,14 @@ driver:
       host: 10.10.10.25
       port: 80
       username: root
-      password: QTI4dm1N
+      password: root
       allowInsecure: true
     sshConnection:
       host: 10.10.10.25
       port: 22
       username: root
       # use either password or key
-      password: QTI4dm1N
+      password: root
         #      privateKey: |
         #        -----BEGIN RSA PRIVATE KEY-----
         #        ...
