@@ -5,8 +5,9 @@ metadata:
    name: csi-rbd-sc
 provisioner: rbd.csi.ceph.com
 parameters:
-   clusterID: 395ed071-3ca7-4467-ac30-xxxxxxxxx
-   pool: k8s-mke
+   clusterID: 395ed071-3ca7-4467-ac30-8da8061057d3
+   pool: k8s
+   namespace: k8s-mke
    imageFeatures: layering
    csi.storage.k8s.io/provisioner-secret-name: csi-rbd-secret
    csi.storage.k8s.io/provisioner-secret-namespace: ceph
